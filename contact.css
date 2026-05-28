@@ -1,0 +1,90 @@
+/* PÁGINA CONTACT US (Engelbert) */
+.contenido-contact {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    color: #333333;
+}
+
+.contenido-contact h1 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    border-bottom: 3px solid #2ecc71;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.contenido-contact h2 {
+    color: #34495e;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.info-contacto {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-left: 5px solid #34495e;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.info-contacto p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.grupo-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #2c3e50;
+}
+
+.grupo-input input,
+.grupo-input textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s ease;
+}
+
+.grupo-input input:focus,
+.grupo-input textarea:focus {
+    outline: none;
+    border-color: #2ecc71;
+}
+
+.btn-enviar {
+    background-color: #34495e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #2ecc71;
+}
